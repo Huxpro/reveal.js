@@ -49,6 +49,9 @@
 			minScale: 0.2,
 			maxScale: 1.5,
 
+			// Whether to deprecate the using of css 'zoom' for scale totally.
+			noZoomScale: false,
+
 			// Display controls in the bottom right corner
 			controls: true,
 
@@ -340,6 +343,11 @@
 		// xbrowser quirks so we only use it in whitelsited browsers.
 		features.zoom = 'zoom' in testElement.style && !isMobileDevice &&
 						( isChrome || /Version\/[\d\.]+.*Safari/.test( UA ) );
+
+		// if noZoomScale config to true, deprecate the using of zoom totally.
+		if ( config.noZoomScale ){
+			features.zoom = false
+		}
 
 	}
 
