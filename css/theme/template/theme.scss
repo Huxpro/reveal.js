@@ -4,7 +4,8 @@
  * GLOBAL STYLES
  *********************************************/
 
-body {
+// Hux add .reveal for Airtalk using.
+body, .reveal  {
 	@include bodyBackground();
 	background-color: $backgroundColor;
 }

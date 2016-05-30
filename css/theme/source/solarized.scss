@@ -12,8 +12,8 @@
 
 
 // Include theme-specific fonts
-@import url(../../lib/font/league-gothic/league-gothic.css);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+// @import url(../../lib/font/league-gothic/league-gothic.css);
+// @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
 
 /**
@@ -45,7 +45,7 @@ $green:     #859900;
 // Override theme settings (see ../template/settings.scss)
 $mainColor: $base00;
 $headingColor: $base01;
-$headingTextShadow: none;
+// $headingTextShadow: none;
 $backgroundColor: $base3;
 $linkColor: $blue;
 $linkColorHover: lighten( $linkColor, 20% );
