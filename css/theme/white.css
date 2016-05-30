@@ -3,14 +3,13 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
-body {
+body, .reveal {
   background: #fff;
   background-color: #fff; }
 
@@ -45,7 +44,7 @@ body {
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: none;
   text-shadow: none;
   word-wrap: break-word; }
 
@@ -53,7 +52,7 @@ body {
   font-size: 2.5em; }
 
 .reveal h2 {
-  font-size: 1.6em; }
+  font-size: 1.9em; }
 
 .reveal h3 {
   font-size: 1.3em; }
@@ -151,7 +150,7 @@ body {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
 
 .reveal code {
-  font-family: monospace; }
+  font-family: Monaco, Menlo, monospace; }
 
 .reveal pre code {
   display: block;
