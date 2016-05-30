@@ -346,7 +346,7 @@
 
 		// if noZoomScale config to true, deprecate the using of zoom totally.
 		if ( config.noZoomScale ){
-			features.zoom = false
+			features.zoom = false;
 		}
 
 	}
