@@ -338,7 +338,8 @@ html:-moz-full-screen-ancestor {
           perspective-origin: 50% 40%; }
 
 .reveal .slides > section {
-  -ms-perspective: 600px; }
+  -ms-perspective: 600px;
+  height: 100%; }
 
 .reveal .slides > section,
 .reveal .slides > section > section {

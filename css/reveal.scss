@@ -407,6 +407,8 @@ html:-moz-full-screen-ancestor {
 
 .reveal .slides>section {
 	-ms-perspective: 600px;
+	// by Hux: be compatible with all absolutely positioning. 
+	height: 100%;	
 }
 
 .reveal .slides>section,
