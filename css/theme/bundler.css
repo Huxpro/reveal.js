@@ -153,8 +153,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="black"] .reveal code, .reveal-theme-preview[data-reveal-theme="black"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="black"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="black"] .reveal pre code {
@@ -415,8 +414,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="beige"] .reveal code, .reveal-theme-preview[data-reveal-theme="beige"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="beige"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="beige"] .reveal pre code {
@@ -677,8 +675,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="blood"] .reveal code, .reveal-theme-preview[data-reveal-theme="blood"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="blood"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="blood"] .reveal pre code {
@@ -962,8 +959,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="league"] .reveal code, .reveal-theme-preview[data-reveal-theme="league"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="league"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="league"] .reveal pre code {
@@ -1223,8 +1219,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="moon"] .reveal code, .reveal-theme-preview[data-reveal-theme="moon"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="moon"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="moon"] .reveal pre code {
@@ -1479,8 +1474,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="night"] .reveal code, .reveal-theme-preview[data-reveal-theme="night"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="night"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="night"] .reveal pre code {
@@ -1738,8 +1732,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="serif"] .reveal code, .reveal-theme-preview[data-reveal-theme="serif"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="serif"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="serif"] .reveal pre code {
@@ -1996,8 +1989,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="simple"] .reveal code, .reveal-theme-preview[data-reveal-theme="simple"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="simple"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="simple"] .reveal pre code {
@@ -2260,8 +2252,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="sky"] .reveal code, .reveal-theme-preview[data-reveal-theme="sky"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="sky"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="sky"] .reveal pre code {
@@ -2521,8 +2512,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="solarized"] .reveal code, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="solarized"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal pre code {
@@ -2777,8 +2767,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="white"] .reveal code, .reveal-theme-preview[data-reveal-theme="white"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="white"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="white"] .reveal pre code {
@@ -3033,8 +3022,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="wechat"] .reveal code, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="wechat"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal pre code {
@@ -3289,8 +3277,7 @@
     font-size: 0.55em;
     font-family: monospace;
     line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    word-wrap: break-word; }
   [data-reveal-theme="mark"] .reveal code, .reveal-theme-preview[data-reveal-theme="mark"] .reveal code {
     font-family: Monaco, Menlo, monospace; }
   [data-reveal-theme="mark"] .reveal pre code, .reveal-theme-preview[data-reveal-theme="mark"] .reveal pre code {
