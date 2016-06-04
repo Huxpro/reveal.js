@@ -31,13 +31,11 @@
   /*********************************************
  * PROGRESS BAR
  *********************************************/ }
-  [data-reveal-theme="black"] section.has-light-background, [data-reveal-theme="black"] section.has-light-background h1, [data-reveal-theme="black"] section.has-light-background h2, [data-reveal-theme="black"] section.has-light-background h3, [data-reveal-theme="black"] section.has-light-background h4, [data-reveal-theme="black"] section.has-light-background h5, [data-reveal-theme="black"] section.has-light-background h6, .reveal-theme-preview[data-reveal-theme="black"] section.has-light-background, .reveal-theme-preview[data-reveal-theme="black"] section.has-light-background h1, .reveal-theme-preview[data-reveal-theme="black"] section.has-light-background h2, .reveal-theme-preview[data-reveal-theme="black"] section.has-light-background h3, .reveal-theme-preview[data-reveal-theme="black"] section.has-light-background h4, .reveal-theme-preview[data-reveal-theme="black"] section.has-light-background h5, .reveal-theme-preview[data-reveal-theme="black"] section.has-light-background h6 {
-    color: #222; }
   [data-reveal-theme="black"] body, [data-reveal-theme="black"] .reveal, .reveal-theme-preview[data-reveal-theme="black"] body, .reveal-theme-preview[data-reveal-theme="black"] .reveal {
     background: #222;
     background-color: #222; }
   [data-reveal-theme="black"] .reveal, .reveal-theme-preview[data-reveal-theme="black"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #fff; }
@@ -63,8 +61,8 @@
   .reveal-theme-preview[data-reveal-theme="black"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #fff;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -132,16 +130,18 @@
   [data-reveal-theme="black"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="black"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="black"] .reveal blockquote p:first-child,
-  [data-reveal-theme="black"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="black"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="black"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="black"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="black"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="black"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="black"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="black"] .reveal q, .reveal-theme-preview[data-reveal-theme="black"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="black"] .reveal pre, .reveal-theme-preview[data-reveal-theme="black"] .reveal pre {
@@ -297,7 +297,7 @@
     background: radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
     background-color: #f7f3de; }
   [data-reveal-theme="beige"] .reveal, .reveal-theme-preview[data-reveal-theme="beige"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #333; }
@@ -323,8 +323,8 @@
   .reveal-theme-preview[data-reveal-theme="beige"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #333;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -392,16 +392,18 @@
   [data-reveal-theme="beige"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="beige"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="beige"] .reveal blockquote p:first-child,
-  [data-reveal-theme="beige"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="beige"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="beige"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="beige"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="beige"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="beige"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="beige"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="beige"] .reveal q, .reveal-theme-preview[data-reveal-theme="beige"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="beige"] .reveal pre, .reveal-theme-preview[data-reveal-theme="beige"] .reveal pre {
@@ -557,7 +559,7 @@
     background: #222;
     background-color: #222; }
   [data-reveal-theme="blood"] .reveal, .reveal-theme-preview[data-reveal-theme="blood"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #eee; }
@@ -583,8 +585,8 @@
   .reveal-theme-preview[data-reveal-theme="blood"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #eee;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -652,16 +654,18 @@
   [data-reveal-theme="blood"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="blood"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="blood"] .reveal blockquote p:first-child,
-  [data-reveal-theme="blood"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="blood"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="blood"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="blood"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="blood"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="blood"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="blood"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="blood"] .reveal q, .reveal-theme-preview[data-reveal-theme="blood"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="blood"] .reveal pre, .reveal-theme-preview[data-reveal-theme="blood"] .reveal pre {
@@ -840,7 +844,7 @@
     background: radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
     background-color: #2b2b2b; }
   [data-reveal-theme="league"] .reveal, .reveal-theme-preview[data-reveal-theme="league"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #eee; }
@@ -866,8 +870,8 @@
   .reveal-theme-preview[data-reveal-theme="league"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #eee;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -935,16 +939,18 @@
   [data-reveal-theme="league"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="league"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="league"] .reveal blockquote p:first-child,
-  [data-reveal-theme="league"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="league"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="league"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="league"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="league"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="league"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="league"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="league"] .reveal q, .reveal-theme-preview[data-reveal-theme="league"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="league"] .reveal pre, .reveal-theme-preview[data-reveal-theme="league"] .reveal pre {
@@ -1099,7 +1105,7 @@
     background: #002b36;
     background-color: #002b36; }
   [data-reveal-theme="moon"] .reveal, .reveal-theme-preview[data-reveal-theme="moon"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #93a1a1; }
@@ -1125,8 +1131,8 @@
   .reveal-theme-preview[data-reveal-theme="moon"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #eee8d5;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -1194,16 +1200,18 @@
   [data-reveal-theme="moon"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="moon"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="moon"] .reveal blockquote p:first-child,
-  [data-reveal-theme="moon"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="moon"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="moon"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="moon"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="moon"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="moon"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="moon"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="moon"] .reveal q, .reveal-theme-preview[data-reveal-theme="moon"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="moon"] .reveal pre, .reveal-theme-preview[data-reveal-theme="moon"] .reveal pre {
@@ -1353,7 +1361,7 @@
     background: #111;
     background-color: #111; }
   [data-reveal-theme="night"] .reveal, .reveal-theme-preview[data-reveal-theme="night"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #eee; }
@@ -1379,8 +1387,8 @@
   .reveal-theme-preview[data-reveal-theme="night"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #eee;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -1448,16 +1456,18 @@
   [data-reveal-theme="night"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="night"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="night"] .reveal blockquote p:first-child,
-  [data-reveal-theme="night"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="night"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="night"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="night"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="night"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="night"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="night"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="night"] .reveal q, .reveal-theme-preview[data-reveal-theme="night"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="night"] .reveal pre, .reveal-theme-preview[data-reveal-theme="night"] .reveal pre {
@@ -1637,7 +1647,7 @@
     margin: 0 0 20px 0;
     color: #383D3D;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
-    font-weight: 600;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -1705,16 +1715,18 @@
   [data-reveal-theme="serif"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="serif"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="serif"] .reveal blockquote p:first-child,
-  [data-reveal-theme="serif"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="serif"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="serif"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="serif"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="serif"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="serif"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="serif"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="serif"] .reveal q, .reveal-theme-preview[data-reveal-theme="serif"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="serif"] .reveal pre, .reveal-theme-preview[data-reveal-theme="serif"] .reveal pre {
@@ -1866,7 +1878,7 @@
     background: #fff;
     background-color: #fff; }
   [data-reveal-theme="simple"] .reveal, .reveal-theme-preview[data-reveal-theme="simple"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #000; }
@@ -1892,8 +1904,8 @@
   .reveal-theme-preview[data-reveal-theme="simple"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #000;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -1961,16 +1973,18 @@
   [data-reveal-theme="simple"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="simple"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="simple"] .reveal blockquote p:first-child,
-  [data-reveal-theme="simple"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="simple"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="simple"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="simple"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="simple"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="simple"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="simple"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="simple"] .reveal q, .reveal-theme-preview[data-reveal-theme="simple"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="simple"] .reveal pre, .reveal-theme-preview[data-reveal-theme="simple"] .reveal pre {
@@ -2128,7 +2142,7 @@
     background: radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
     background-color: #f7fbfc; }
   [data-reveal-theme="sky"] .reveal, .reveal-theme-preview[data-reveal-theme="sky"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #333; }
@@ -2154,8 +2168,8 @@
   .reveal-theme-preview[data-reveal-theme="sky"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #333;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -2223,16 +2237,18 @@
   [data-reveal-theme="sky"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="sky"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="sky"] .reveal blockquote p:first-child,
-  [data-reveal-theme="sky"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="sky"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="sky"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="sky"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="sky"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="sky"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="sky"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="sky"] .reveal q, .reveal-theme-preview[data-reveal-theme="sky"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="sky"] .reveal pre, .reveal-theme-preview[data-reveal-theme="sky"] .reveal pre {
@@ -2387,7 +2403,7 @@
     background: #fdf6e3;
     background-color: #fdf6e3; }
   [data-reveal-theme="solarized"] .reveal, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #657b83; }
@@ -2413,8 +2429,8 @@
   .reveal-theme-preview[data-reveal-theme="solarized"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #586e75;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -2482,16 +2498,18 @@
   [data-reveal-theme="solarized"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="solarized"] .reveal blockquote p:first-child,
-  [data-reveal-theme="solarized"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="solarized"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="solarized"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="solarized"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="solarized"] .reveal q, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="solarized"] .reveal pre, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal pre {
@@ -2637,8 +2655,6 @@
   /*********************************************
  * PROGRESS BAR
  *********************************************/ }
-  [data-reveal-theme="white"] section.has-dark-background, [data-reveal-theme="white"] section.has-dark-background h1, [data-reveal-theme="white"] section.has-dark-background h2, [data-reveal-theme="white"] section.has-dark-background h3, [data-reveal-theme="white"] section.has-dark-background h4, [data-reveal-theme="white"] section.has-dark-background h5, [data-reveal-theme="white"] section.has-dark-background h6, .reveal-theme-preview[data-reveal-theme="white"] section.has-dark-background, .reveal-theme-preview[data-reveal-theme="white"] section.has-dark-background h1, .reveal-theme-preview[data-reveal-theme="white"] section.has-dark-background h2, .reveal-theme-preview[data-reveal-theme="white"] section.has-dark-background h3, .reveal-theme-preview[data-reveal-theme="white"] section.has-dark-background h4, .reveal-theme-preview[data-reveal-theme="white"] section.has-dark-background h5, .reveal-theme-preview[data-reveal-theme="white"] section.has-dark-background h6 {
-    color: #fff; }
   [data-reveal-theme="white"] body, [data-reveal-theme="white"] .reveal, .reveal-theme-preview[data-reveal-theme="white"] body, .reveal-theme-preview[data-reveal-theme="white"] .reveal {
     background: #fff;
     background-color: #fff; }
@@ -2670,7 +2686,7 @@
     margin: 0 0 20px 0;
     color: #222;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -2738,16 +2754,18 @@
   [data-reveal-theme="white"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="white"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="white"] .reveal blockquote p:first-child,
-  [data-reveal-theme="white"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="white"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="white"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="white"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="white"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="white"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="white"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="white"] .reveal q, .reveal-theme-preview[data-reveal-theme="white"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="white"] .reveal pre, .reveal-theme-preview[data-reveal-theme="white"] .reveal pre {
@@ -2893,13 +2911,11 @@
   /*********************************************
  * PROGRESS BAR
  *********************************************/ }
-  [data-reveal-theme="wechat"] section.has-light-background, [data-reveal-theme="wechat"] section.has-light-background h1, [data-reveal-theme="wechat"] section.has-light-background h2, [data-reveal-theme="wechat"] section.has-light-background h3, [data-reveal-theme="wechat"] section.has-light-background h4, [data-reveal-theme="wechat"] section.has-light-background h5, [data-reveal-theme="wechat"] section.has-light-background h6, .reveal-theme-preview[data-reveal-theme="wechat"] section.has-light-background, .reveal-theme-preview[data-reveal-theme="wechat"] section.has-light-background h1, .reveal-theme-preview[data-reveal-theme="wechat"] section.has-light-background h2, .reveal-theme-preview[data-reveal-theme="wechat"] section.has-light-background h3, .reveal-theme-preview[data-reveal-theme="wechat"] section.has-light-background h4, .reveal-theme-preview[data-reveal-theme="wechat"] section.has-light-background h5, .reveal-theme-preview[data-reveal-theme="wechat"] section.has-light-background h6 {
-    color: #222; }
   [data-reveal-theme="wechat"] body, [data-reveal-theme="wechat"] .reveal, .reveal-theme-preview[data-reveal-theme="wechat"] body, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal {
     background: #36373d;
     background-color: #36373d; }
   [data-reveal-theme="wechat"] .reveal, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #fff; }
@@ -2925,8 +2941,8 @@
   .reveal-theme-preview[data-reveal-theme="wechat"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #fff;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -2994,16 +3010,18 @@
   [data-reveal-theme="wechat"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="wechat"] .reveal blockquote p:first-child,
-  [data-reveal-theme="wechat"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="wechat"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="wechat"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="wechat"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="wechat"] .reveal q, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="wechat"] .reveal pre, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal pre {
@@ -3149,13 +3167,11 @@
   /*********************************************
  * PROGRESS BAR
  *********************************************/ }
-  [data-reveal-theme="mark"] section.has-light-background, [data-reveal-theme="mark"] section.has-light-background h1, [data-reveal-theme="mark"] section.has-light-background h2, [data-reveal-theme="mark"] section.has-light-background h3, [data-reveal-theme="mark"] section.has-light-background h4, [data-reveal-theme="mark"] section.has-light-background h5, [data-reveal-theme="mark"] section.has-light-background h6, .reveal-theme-preview[data-reveal-theme="mark"] section.has-light-background, .reveal-theme-preview[data-reveal-theme="mark"] section.has-light-background h1, .reveal-theme-preview[data-reveal-theme="mark"] section.has-light-background h2, .reveal-theme-preview[data-reveal-theme="mark"] section.has-light-background h3, .reveal-theme-preview[data-reveal-theme="mark"] section.has-light-background h4, .reveal-theme-preview[data-reveal-theme="mark"] section.has-light-background h5, .reveal-theme-preview[data-reveal-theme="mark"] section.has-light-background h6 {
-    color: #222; }
   [data-reveal-theme="mark"] body, [data-reveal-theme="mark"] .reveal, .reveal-theme-preview[data-reveal-theme="mark"] body, .reveal-theme-preview[data-reveal-theme="mark"] .reveal {
     background: #69130c;
     background-color: #69130c; }
   [data-reveal-theme="mark"] .reveal, .reveal-theme-preview[data-reveal-theme="mark"] .reveal {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 38px;
     font-weight: normal;
     color: #fff; }
@@ -3181,8 +3197,8 @@
   .reveal-theme-preview[data-reveal-theme="mark"] .reveal h6 {
     margin: 0 0 20px 0;
     color: #fff;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: "Source Sans Pro", -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
     text-transform: none;
@@ -3250,16 +3266,18 @@
   [data-reveal-theme="mark"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="mark"] .reveal blockquote {
     display: block;
     position: relative;
-    width: 70%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
     padding: 5px;
-    font-style: italic;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
-  [data-reveal-theme="mark"] .reveal blockquote p:first-child,
-  [data-reveal-theme="mark"] .reveal blockquote p:last-child, .reveal-theme-preview[data-reveal-theme="mark"] .reveal blockquote p:first-child,
-  .reveal-theme-preview[data-reveal-theme="mark"] .reveal blockquote p:last-child {
+    font-style: italic; }
+  [data-reveal-theme="mark"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="mark"] .reveal blockquote p:first-child {
     display: inline-block; }
+  [data-reveal-theme="mark"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="mark"] .reveal blockquote::before {
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
   [data-reveal-theme="mark"] .reveal q, .reveal-theme-preview[data-reveal-theme="mark"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="mark"] .reveal pre, .reveal-theme-preview[data-reveal-theme="mark"] .reveal pre {
