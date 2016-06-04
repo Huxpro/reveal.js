@@ -130,18 +130,18 @@
   [data-reveal-theme="black"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="black"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="black"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="black"] .reveal blockquote p:first-child {
+  [data-reveal-theme="black"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="black"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="black"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="black"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="black"] .reveal q, .reveal-theme-preview[data-reveal-theme="black"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="black"] .reveal pre, .reveal-theme-preview[data-reveal-theme="black"] .reveal pre {
@@ -392,18 +392,18 @@
   [data-reveal-theme="beige"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="beige"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="beige"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="beige"] .reveal blockquote p:first-child {
+  [data-reveal-theme="beige"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="beige"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="beige"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="beige"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="beige"] .reveal q, .reveal-theme-preview[data-reveal-theme="beige"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="beige"] .reveal pre, .reveal-theme-preview[data-reveal-theme="beige"] .reveal pre {
@@ -654,18 +654,18 @@
   [data-reveal-theme="blood"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="blood"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="blood"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="blood"] .reveal blockquote p:first-child {
+  [data-reveal-theme="blood"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="blood"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="blood"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="blood"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="blood"] .reveal q, .reveal-theme-preview[data-reveal-theme="blood"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="blood"] .reveal pre, .reveal-theme-preview[data-reveal-theme="blood"] .reveal pre {
@@ -939,18 +939,18 @@
   [data-reveal-theme="league"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="league"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="league"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="league"] .reveal blockquote p:first-child {
+  [data-reveal-theme="league"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="league"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="league"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="league"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="league"] .reveal q, .reveal-theme-preview[data-reveal-theme="league"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="league"] .reveal pre, .reveal-theme-preview[data-reveal-theme="league"] .reveal pre {
@@ -1200,18 +1200,18 @@
   [data-reveal-theme="moon"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="moon"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="moon"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="moon"] .reveal blockquote p:first-child {
+  [data-reveal-theme="moon"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="moon"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="moon"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="moon"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="moon"] .reveal q, .reveal-theme-preview[data-reveal-theme="moon"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="moon"] .reveal pre, .reveal-theme-preview[data-reveal-theme="moon"] .reveal pre {
@@ -1456,18 +1456,18 @@
   [data-reveal-theme="night"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="night"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="night"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="night"] .reveal blockquote p:first-child {
+  [data-reveal-theme="night"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="night"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="night"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="night"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="night"] .reveal q, .reveal-theme-preview[data-reveal-theme="night"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="night"] .reveal pre, .reveal-theme-preview[data-reveal-theme="night"] .reveal pre {
@@ -1715,18 +1715,18 @@
   [data-reveal-theme="serif"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="serif"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="serif"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="serif"] .reveal blockquote p:first-child {
+  [data-reveal-theme="serif"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="serif"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="serif"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="serif"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="serif"] .reveal q, .reveal-theme-preview[data-reveal-theme="serif"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="serif"] .reveal pre, .reveal-theme-preview[data-reveal-theme="serif"] .reveal pre {
@@ -1973,18 +1973,18 @@
   [data-reveal-theme="simple"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="simple"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="simple"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="simple"] .reveal blockquote p:first-child {
+  [data-reveal-theme="simple"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="simple"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="simple"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="simple"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="simple"] .reveal q, .reveal-theme-preview[data-reveal-theme="simple"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="simple"] .reveal pre, .reveal-theme-preview[data-reveal-theme="simple"] .reveal pre {
@@ -2237,18 +2237,18 @@
   [data-reveal-theme="sky"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="sky"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="sky"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="sky"] .reveal blockquote p:first-child {
+  [data-reveal-theme="sky"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="sky"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="sky"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="sky"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="sky"] .reveal q, .reveal-theme-preview[data-reveal-theme="sky"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="sky"] .reveal pre, .reveal-theme-preview[data-reveal-theme="sky"] .reveal pre {
@@ -2498,18 +2498,18 @@
   [data-reveal-theme="solarized"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="solarized"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal blockquote p:first-child {
+  [data-reveal-theme="solarized"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="solarized"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="solarized"] .reveal q, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="solarized"] .reveal pre, .reveal-theme-preview[data-reveal-theme="solarized"] .reveal pre {
@@ -2754,18 +2754,18 @@
   [data-reveal-theme="white"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="white"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="white"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="white"] .reveal blockquote p:first-child {
+  [data-reveal-theme="white"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="white"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="white"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="white"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="white"] .reveal q, .reveal-theme-preview[data-reveal-theme="white"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="white"] .reveal pre, .reveal-theme-preview[data-reveal-theme="white"] .reveal pre {
@@ -3010,18 +3010,18 @@
   [data-reveal-theme="wechat"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="wechat"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal blockquote p:first-child {
+  [data-reveal-theme="wechat"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="wechat"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="wechat"] .reveal q, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="wechat"] .reveal pre, .reveal-theme-preview[data-reveal-theme="wechat"] .reveal pre {
@@ -3266,18 +3266,18 @@
   [data-reveal-theme="mark"] .reveal blockquote, .reveal-theme-preview[data-reveal-theme="mark"] .reveal blockquote {
     display: block;
     position: relative;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     margin: 20px auto;
-    padding: 5px;
     font-style: italic; }
-  [data-reveal-theme="mark"] .reveal blockquote p:first-child, .reveal-theme-preview[data-reveal-theme="mark"] .reveal blockquote p:first-child {
+  [data-reveal-theme="mark"] .reveal blockquote > :first-child, .reveal-theme-preview[data-reveal-theme="mark"] .reveal blockquote > :first-child {
     display: inline-block; }
   [data-reveal-theme="mark"] .reveal blockquote::before, .reveal-theme-preview[data-reveal-theme="mark"] .reveal blockquote::before {
     content: "\201C";
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em; }
+    display: inline-block;
+    padding: 0 0.15em;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1px;
+    vertical-align: top; }
   [data-reveal-theme="mark"] .reveal q, .reveal-theme-preview[data-reveal-theme="mark"] .reveal q {
     font-style: italic; }
   [data-reveal-theme="mark"] .reveal pre, .reveal-theme-preview[data-reveal-theme="mark"] .reveal pre {

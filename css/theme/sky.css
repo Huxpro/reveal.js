@@ -129,20 +129,20 @@ body, .reveal {
 .reveal blockquote {
   display: block;
   position: relative;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
   margin: 20px auto;
-  padding: 5px;
   font-style: italic; }
 
-.reveal blockquote p:first-child {
+.reveal blockquote > :first-child {
   display: inline-block; }
 
 .reveal blockquote::before {
   content: "\201C";
-  font-size: 3em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em; }
+  display: inline-block;
+  padding: 0 0.15em;
+  font-size: 2em;
+  line-height: 1em;
+  height: 1px;
+  vertical-align: top; }
 
 .reveal q {
   font-style: italic; }
