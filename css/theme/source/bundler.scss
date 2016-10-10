@@ -57,3 +57,7 @@
   @import "mark";
 }
 
+[data-reveal-theme="qcon"], .reveal-theme-preview[data-reveal-theme="qcon"] {
+  @import "qcon";
+}
+

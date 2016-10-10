@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Black theme for reveal.js.
  *
@@ -127,7 +128,7 @@ body, .reveal {
   display: inline-block; }
 
 .reveal blockquote::before {
-  content: "\201C";
+  content: "“";
   display: inline-block;
   padding: 0 0.15em;
   font-size: 2em;

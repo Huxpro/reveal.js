@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Solarized Light theme for reveal.js.
  * Author: Achim Staebler
@@ -133,7 +134,7 @@ body, .reveal {
   display: inline-block; }
 
 .reveal blockquote::before {
-  content: "\201C";
+  content: "“";
   display: inline-block;
   padding: 0 0.15em;
   font-size: 2em;

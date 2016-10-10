@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * A simple theme for reveal.js presentations, similar
  * to the default theme. The accent color is darkblue.
@@ -129,7 +130,7 @@ body, .reveal {
   display: inline-block; }
 
 .reveal blockquote::before {
-  content: "\201C";
+  content: "“";
   display: inline-block;
   padding: 0 0.15em;
   font-size: 2em;
