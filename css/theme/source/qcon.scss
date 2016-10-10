@@ -24,24 +24,20 @@ $headingColor: #246baf;	// blue
 $mainFontSize: 38px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingFont: 'Source Sans Pro', Helvetica, sans-serif;
-// $headingTextShadow: none;
-// $headingLetterSpacing: normal;
-// $headingTextTransform: uppercase;
-// $headingFontWeight: 600;
-$linkColor: #428bca;	
+
+$linkColor: #246baf;		// same with heading color, thats why we need underline deco.
 $linkColorHover: #1d8045;   // green
+$linkDecoration: underline;
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
-// $heading1Size: 2.5em;
-// $heading2Size: 1.6em;
-// $heading3Size: 1.3em;
-// $heading4Size: 1.0em;
 
-// section.has-dark-background {
-// 	&, h1, h2, h3, h4, h5, h6 {
-// 		color: #fff;
-// 	}
-// }
+
+// Invert-Color style, powerful
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
 
 
 // Theme template ------------------------------

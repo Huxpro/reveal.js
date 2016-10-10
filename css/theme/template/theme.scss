@@ -248,7 +248,7 @@ body, .reveal  {
 
 .reveal a {
 	color: $linkColor;
-	text-decoration: none;
+	text-decoration: $linkDecoration;
 
 	-webkit-transition: color .15s ease;
 	   -moz-transition: color .15s ease;
